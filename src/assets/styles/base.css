@@ -15,8 +15,20 @@ body {
   transition: all ease-in-out 150ms;
 }
 
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
 .section-max-w {
   max-width: 1140px;
   padding-inline: 1.5rem;
   margin-inline: auto;
+}
+
+.section-margin {
+  margin-block: 7rem;
 }

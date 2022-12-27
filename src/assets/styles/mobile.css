@@ -1,6 +1,15 @@
 @media screen and (max-width: 768px) {
+  .section-margin {
+    margin-block: 2rem;
+  }
+
+  .nav-hero-container {
+    background-size: 150%;
+    background-position: -50% -50%;
+  }
+
   .nav {
-    margin-block-start: 2rem;
+    padding-block-start: 2rem;
   }
 
   .nav-logo img {
@@ -28,6 +37,7 @@
   .nav-links {
     max-width: fit-content;
     margin-inline: auto;
+    font-size: 0.9375rem;
   }
 
   .nav-menu {
@@ -37,5 +47,26 @@
 
   .nav-menu.expanded + .nav-links-container {
     display: flex;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-container-text {
+    text-align: center;
+    align-items: center;
+  }
+
+  .hero-container-text .title {
+    font-size: 2.25rem;
+  }
+
+  .hero-container-img {
+    grid-row: 1;
+  }
+
+  .hero-container-img img {
+    transform: none;
   }
 }

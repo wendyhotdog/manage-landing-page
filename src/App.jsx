@@ -1,9 +1,12 @@
-import { Nav } from "./components";
+import { Nav, Hero } from "./components";
 
 const App = () => {
   return (
     <article>
-      <Nav />
+      <div className="nav-hero-container">
+        <Nav />
+        <Hero />
+      </div>
     </article>
   );
 };

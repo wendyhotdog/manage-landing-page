@@ -1,8 +1,15 @@
+.nav-hero-container {
+  background-image: url("../static/images/bg-tablet-pattern.svg");
+  background-size: 50vmax;
+  background-repeat: no-repeat;
+  background-position: 55vmax -5vmin;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-block-start: 4.375rem;
+  padding-block-start: 3.5rem;
 }
 
 .nav-logo {
@@ -39,6 +46,7 @@
 
 .cta {
   background-color: var(--primary-600);
+  display: block;
   text-decoration: none;
   color: var(--neutral-400);
   padding: 1em 2.25em;
@@ -46,6 +54,7 @@
   font-weight: 700;
   border-radius: 9999px;
   box-shadow: 0 1.5em 1.5em -1em hsl(12, 88%, 59%, 0.5);
+  max-width: fit-content;
 }
 
 .nav-cta {
@@ -54,4 +63,38 @@
 
 .cta:hover {
   opacity: 0.7;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.hero-container-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.hero-container-text .title {
+  font-size: 3.25rem;
+  font-weight: 700;
+  color: var(--primary-800);
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  margin-block: 0.25rem;
+}
+
+.hero-container-text .intro {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--neutral-600);
+  max-width: 32ch;
+  line-height: 1.65;
+}
+
+.hero-container-img img {
+  margin-inline: auto;
+  transform: scale(1.05) translateY(2%) translateX(4%);
 }

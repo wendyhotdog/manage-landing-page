@@ -46,7 +46,6 @@
 
 .cta {
   background-color: var(--primary-600);
-  display: block;
   text-decoration: none;
   color: var(--neutral-400);
   padding: 1em 2.25em;

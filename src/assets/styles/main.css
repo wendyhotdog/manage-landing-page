@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-block-start: 4rem;
+  margin-block-start: 4.375rem;
 }
 
 .nav-logo {
@@ -10,7 +10,7 @@
 }
 
 .nav-logo img {
-  height: 1.75rem;
+  height: 1.5rem;
   width: auto;
 }
 
@@ -25,7 +25,8 @@
   text-decoration: none;
   color: var(--primary-800);
   font-weight: 700;
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
+  letter-spacing: -0.5px;
 }
 
 .nav-links:hover {
@@ -40,11 +41,15 @@
   background-color: var(--primary-600);
   text-decoration: none;
   color: var(--neutral-400);
-  padding: 1em 2em;
-  font-size: 0.875rem;
+  padding: 1em 2.25em;
+  font-size: 0.8125rem;
   font-weight: 700;
   border-radius: 9999px;
   box-shadow: 0 1.5em 1.5em -1em hsl(12, 88%, 59%, 0.5);
+}
+
+.nav-cta {
+  margin-inline: 1rem -1.25rem;
 }
 
 .cta:hover {

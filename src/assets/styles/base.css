@@ -24,11 +24,11 @@ body {
 }
 
 .section-max-w {
-  max-width: 1140px;
+  max-width: 1160px;
   padding-inline: 1.5rem;
   margin-inline: auto;
 }
 
 .section-margin {
-  margin-block: 7rem;
+  margin-block: 6.25rem;
 }

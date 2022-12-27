@@ -1,15 +1,15 @@
 .nav-hero-container {
   background-image: url("../static/images/bg-tablet-pattern.svg");
-  background-size: 50vmax;
+  background-size: 55vmax;
   background-repeat: no-repeat;
-  background-position: 55vmax -5vmin;
+  background-position: 55vmax -10vmin;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-block-start: 4.25rem;
+  padding-block-start: 3.5rem;
 }
 
 .nav-logo {
@@ -53,11 +53,8 @@
   font-weight: 700;
   border-radius: 9999px;
   box-shadow: 0 1.5em 1.5em -1em hsl(12, 88%, 59%, 0.5);
-  max-width: fit-content;
-}
-
-.nav-cta {
-  margin-inline: 1rem -1.25rem;
+  display: block;
+  max-width: max-content;
 }
 
 .cta:hover {
@@ -82,7 +79,7 @@
   color: var(--primary-800);
   line-height: 1.2;
   letter-spacing: -0.5px;
-  margin-block-start: 2rem;
+  margin-block-start: 1.875rem;
 }
 
 .hero-container-text .intro {
@@ -95,5 +92,5 @@
 
 .hero-container-img img {
   margin-inline: auto;
-  transform: scale(1.05) translateY(4%) translateX(4%);
+  transform: scale(1.05) translateY(4%) translateX(1%);
 }

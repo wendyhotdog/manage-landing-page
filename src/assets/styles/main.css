@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-block-start: 3.5rem;
+  padding-block-start: 4.25rem;
 }
 
 .nav-logo {
@@ -82,7 +82,7 @@
   color: var(--primary-800);
   line-height: 1.2;
   letter-spacing: -0.5px;
-  margin-block: 0.25rem;
+  margin-block-start: 2rem;
 }
 
 .hero-container-text .intro {
@@ -95,5 +95,5 @@
 
 .hero-container-img img {
   margin-inline: auto;
-  transform: scale(1.05) translateY(2%) translateX(4%);
+  transform: scale(1.05) translateY(4%) translateX(4%);
 }

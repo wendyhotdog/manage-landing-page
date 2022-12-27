@@ -5,7 +5,7 @@ import { navLinks } from "../constants";
 function Nav() {
   const [Open, setOpen] = useState(false);
   return (
-    <nav className="nav section-max-w">
+    <nav className="nav | section-max-w">
       <div>
         <a href="#" className="nav-logo">
           <img src={logo} alt="Manage" />
@@ -23,7 +23,7 @@ function Nav() {
         <ul className="nav-links-container">
           {navLinks.map((item) => (
             <li key={item.id}>
-              <a href={item.id} className="nav-links transition-all">
+              <a href={item.id} className="nav-links | transition-all">
                 {item.title}
               </a>
             </li>
@@ -31,7 +31,7 @@ function Nav() {
         </ul>
       </div>
       <div className="nav-cta-container">
-        <a href="#get_started" className="nav-cta cta transition-all">
+        <a href="#get_started" className="nav-cta cta | transition-all">
           Get Started
         </a>
       </div>

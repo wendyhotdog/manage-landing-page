@@ -1,7 +1,7 @@
 import heroImg from "../assets/static/images/illustration-intro.svg";
 const Hero = () => {
   return (
-    <section className="hero section-max-w section-margin">
+    <section className="hero | section-max-w section-margin">
       <div className="hero-container-text">
         <h1 className="title">
           Bring everyone <br /> together to build <br /> better products.

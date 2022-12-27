@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap");
+
+:root {
+  --primary-600: hsl(12, 88%, 59%);
+  --primary-800: hsl(228, 39%, 23%);
+  --neutral-400: hsl(0, 0%, 98%);
+  --neutral-500: hsl(13, 100%, 96%);
+  --neutral-600: hsl(227, 12%, 61%);
+  --neutral-800: hsl(233, 12%, 13%);
+}
+
+body {
+  font-family: "Be Vietnam Pro", "Comic Sans MS", sans-serif;
+}

@@ -1,0 +1,41 @@
+@media screen and (max-width: 768px) {
+  .nav {
+    margin-block-start: 2rem;
+  }
+
+  .nav-logo img {
+    height: 1.5rem;
+  }
+
+  .nav-cta-container {
+    display: none;
+  }
+
+  .nav-links-container {
+    display: none;
+    gap: 1.25rem;
+    flex-direction: column;
+    background-color: var(--neutral-400);
+    border-radius: 0.25rem;
+    position: absolute;
+    inset: 5rem 0 auto 0;
+    margin-inline: 1.5rem;
+    padding-block: 3rem;
+    box-shadow: 0 40vh 30vh 30vh hsl(233, 12%, 13%, 0.5);
+    animation: menu_slide_in 300ms ease-in-out;
+  }
+
+  .nav-links {
+    max-width: fit-content;
+    margin-inline: auto;
+  }
+
+  .nav-menu {
+    display: block;
+    position: relative;
+  }
+
+  .nav-menu.expanded + .nav-links-container {
+    display: flex;
+  }
+}

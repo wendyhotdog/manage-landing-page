@@ -30,7 +30,7 @@
     inset: 5rem 0 auto 0;
     margin-inline: 1.5rem;
     padding-block: 3rem;
-    box-shadow: 0 50vh 50vw 70vw hsl(233, 12%, 13%, 0.5);
+    box-shadow: 0 55vh 65vw 70vw hsl(233, 12%, 13%, 0.5);
     animation: menu_slide_in 300ms ease-in-out;
     z-index: 20;
   }

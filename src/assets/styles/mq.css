@@ -4,8 +4,8 @@
   }
 
   body {
-    background-size: 80vmax;
-    background-position: 7.5vmax -30vmax;
+    background-size: 75vmax, 50vmax;
+    background-position: 8vmax -25vmax, 30vmax 60vmax;
   }
 
   .nav {

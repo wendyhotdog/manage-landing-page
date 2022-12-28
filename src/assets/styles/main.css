@@ -1,8 +1,9 @@
 body {
-  background-image: url('../static/images/bg-tablet-pattern.svg');
-  background-size: 55vmax;
-  background-repeat: no-repeat;
-  background-position: 55vmax -10vmin;
+  background-image: url('../static/images/bg-tablet-pattern.svg'),
+    url('../static/images/bg-tablet-pattern.svg');
+  background-size: 55vmax, 55vmax;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 55vmax -10vmin, -35vmax 115vmin;
 }
 
 .nav {

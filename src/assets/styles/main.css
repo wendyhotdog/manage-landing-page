@@ -55,12 +55,17 @@ body {
   border-radius: 9999px;
   box-shadow: 0 1.5em 1.5em -1em hsl(12, 88%, 59%, 0.5);
   display: block;
-  max-width: max-content;
+  max-width: fit-content;
   transition: all ease-in-out 150ms;
 }
 
 .cta:hover {
   opacity: 0.7;
+}
+
+.nav-cta {
+  display: inline;
+  min-width: fit-content;
 }
 
 .hero {

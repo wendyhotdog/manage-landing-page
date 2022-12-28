@@ -58,20 +58,20 @@
     grid-template-columns: 1fr;
   }
 
-  .hero-container-left {
+  .hero .container-left {
     text-align: center;
     align-items: center;
   }
 
-  .hero-container-left .title {
+  .hero .container-left .title {
     font-size: 2.25rem;
   }
 
-  .hero-container-right {
+  .hero .container-right {
     grid-row: 1;
   }
 
-  .hero-container-right img {
+  .hero .container-right img {
     transform: none;
   }
 
@@ -80,39 +80,47 @@
     gap: 0.5rem;
   }
 
-  .about-container-left {
+  .about .container-left {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .about-container-left .title {
+  .about .container-left .title {
     font-size: 1.9375rem;
   }
 
-  .numbered-list-container {
+  .about .numbered-list-container {
     gap: 1rem;
   }
 
-  .numbered-list {
+  .about .numbered-list {
     display: block;
     margin-left: 0;
   }
 
-  .numbered-list-id {
+  .about .numbered-list .id {
     left: -0.5rem;
     top: 0;
   }
 
-  .numbered-list-title {
+  .about .numbered-list .title {
     transform: translateX(1.5rem);
     padding-block: 0.5em;
     padding-inline-start: 3em;
     background-color: var(--primary-400);
   }
-  .numbered-list-content {
+  .about .numbered-list .content {
     line-height: 1.9;
     font-size: 0.8125rem;
+  }
+  .testimonials .card-container {
+    min-width: 90vw;
+  }
+  .testimonials .card-img {
+    margin-inline: auto;
+    left: 0;
+    right: 0;
   }
 }

@@ -1,13 +1,12 @@
-import { Nav, Hero, About } from "./components";
+import { Nav, Hero, About, Testimonials } from "./components";
 
 const App = () => {
   return (
     <article>
-      <div className="nav-hero-container">
-        <Nav />
-        <Hero />
-      </div>
+      <Nav />
+      <Hero />
       <About />
+      <Testimonials />
     </article>
   );
 };

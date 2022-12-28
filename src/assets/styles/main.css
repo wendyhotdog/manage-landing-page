@@ -66,14 +66,14 @@ body {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.hero-container-left {
+.hero .container-left {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   justify-content: center;
 }
 
-.hero-container-left .title {
+.hero .container-left .title {
   font-size: 3.25rem;
   font-weight: 700;
   color: var(--primary-800);
@@ -90,7 +90,7 @@ body {
   line-height: 1.65;
 }
 
-.hero-container-right img {
+.hero .container-right img {
   margin-inline: auto;
   transform: scale(1.05) translateY(4%) translateX(1%);
 }
@@ -101,11 +101,11 @@ body {
   gap: 4rem;
 }
 
-.about-container-left {
+.about .container-left {
   padding-block: 0.5rem;
 }
 
-.about-container-left .title {
+.about .container-left .title {
   font-size: 2.25rem;
   line-height: 1.25;
   margin-block: 1.875rem 1.5rem;
@@ -113,27 +113,24 @@ body {
   letter-spacing: 0.6px;
 }
 
-.about-container-right {
+.about .container-right {
   padding-block: 1rem;
 }
 
-.about-container-right ul {
+.about .numbered-list-container {
   list-style: none;
-}
-
-.numbered-list-container {
   display: flex;
   flex-direction: column;
   gap: 1.875rem;
   flex: 1;
 }
 
-.numbered-list {
+.about .numbered-list {
   display: flex;
   margin-left: 5rem;
 }
 
-.numbered-list-title {
+.about .numbered-list .title {
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: -0.5px;
@@ -142,7 +139,7 @@ body {
   letter-spacing: -0.65px;
 }
 
-.numbered-list-id {
+.about .numbered-list .id {
   display: inline-block;
   color: var(--neutral-400);
   background-color: var(--primary-600);
@@ -154,8 +151,70 @@ body {
   z-index: 10;
 }
 
-.numbered-list-content {
+.about .numbered-list .content {
   max-width: 42ch;
   color: var(--neutral-600);
   font-size: 1rem;
+}
+
+.testimonials .title {
+  font-size: 2.25rem;
+  color: var(--primary-800);
+  font-weight: 700;
+  text-align: center;
+  padding-block-start: 2.25rem;
+  letter-spacing: 0.5px;
+}
+
+.testimonials .slider-container {
+  padding-block-start: 6.5rem;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.testimonials .slider {
+  display: flex;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.testimonials .card-container {
+  background-color: var(--neutral-400);
+  padding-block: 2rem;
+  padding-inline: 1.5rem;
+  border-radius: 0.25em;
+  min-width: 33.5rem;
+  height: 100%;
+  cursor: grab;
+}
+
+.testimonials .card-title {
+  font-size: 1rem;
+  margin-block: 1.875rem 1.125rem;
+  color: var(--primary-800);
+  letter-spacing: -0.2px;
+}
+
+.testimonials .card-img {
+  border-radius: 9999px;
+  top: -2.25rem;
+  margin-inline: auto;
+  left: 0;
+  right: 0;
+  width: 4.5rem;
+  aspect-ratio: 1 / 1;
+}
+
+.testimonials .card-content {
+  font-size: 1rem;
+  color: var(--neutral-600);
+  max-width: 42ch;
+  margin-inline: auto;
+}
+
+.testimonials .cta {
+  display: block;
+  margin-inline: auto;
+  margin-block: 3.75rem;
 }

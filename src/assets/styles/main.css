@@ -322,7 +322,8 @@ body {
 }
 
 .primary-footer .container-mailbox .input.mail:is(:focus, :focus-within) {
-  outline: 3px solid var(--primary-600);
+  outline: 0;
+  border: 3px solid var(--primary-600);
 }
 
 .secondary-footer {

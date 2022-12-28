@@ -106,8 +106,9 @@
   }
 
   .numbered-list-title {
-    transform: translateX(2.5rem);
-    padding: 0.5em 2em;
+    transform: translateX(1.5rem);
+    padding-block: 0.5em;
+    padding-inline-start: 3em;
     background-color: var(--primary-400);
   }
   .numbered-list-content {

@@ -17,7 +17,7 @@ Extra utility classes would have come in handy, but overall it was a fun project
 - [Firefox](https://www.mozilla.org/en-US/firefox/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
-### [Live preview 🎨](https://manage-lp-rwxdan.vercel.app/)
+### [Live preview 🎨](https://manage-landing-page-rwxdan.vercel.app/)
 
 | ![](./public/screenshots/mobile_view.png) | ![](./public/screenshots/tablet_view.png) | ![](./public/screenshots/desktop_view.png) |
 | ----------------------------------------- | ----------------------------------------- | ------------------------------------------ |

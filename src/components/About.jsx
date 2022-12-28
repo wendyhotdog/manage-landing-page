@@ -19,7 +19,7 @@ const About = () => {
                   <p className="numbered-list-id">{item.id}</p>
                 </div>
                 <div>
-                  <p className="numbered-list-title">{item.title}</p>
+                  <h3 className="numbered-list-title">{item.title}</h3>
                   <p className="numbered-list-content">{item.content}</p>
                 </div>
               </div>

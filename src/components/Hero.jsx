@@ -2,7 +2,7 @@ import heroImg from "../assets/static/images/illustration-intro.svg";
 const Hero = () => {
   return (
     <section className="hero | section-max-w section-margin">
-      <div className="hero-container-left">
+      <div className="container-left">
         <h1 className="title">
           Bring everyone <br /> together to build <br /> better products.
         </h1>
@@ -14,7 +14,7 @@ const Hero = () => {
           Get Started
         </a>
       </div>
-      <div className="hero-container-right">
+      <div className="container-right">
         <img src={heroImg} alt="Illustration of three graphs." />
       </div>
     </section>

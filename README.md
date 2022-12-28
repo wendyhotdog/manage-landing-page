@@ -3,7 +3,7 @@
 
 ### What's this? 🤔
 
-The Manage Landing Page is a [FEM](https://frontendmentor.io) challenge that gave me a firm grasp on _relatively_ complex layouts. It seems to be very consistent thanks to its color palette but there are small things like margin and paddings varying a lot across the whole page.
+The Manage Landing Page is a [FEM](https://frontendmentor.io) challenge that gave me a firm grasp on _relatively_ complex layouts. It seems to be very consistent thanks to its color palette, but there are small things like margins, paddings and elements' placing varying a lot across the whole page.
 
 Extra utility classes would have come in handy, but overall it was a fun project to build.
 

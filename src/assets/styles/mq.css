@@ -123,4 +123,15 @@
     left: 0;
     right: 0;
   }
+
+  .section-cta {
+    background-image: url("../static/images/bg-simplify-section-mobile.svg");
+  }
+
+  .section-cta .container {
+    flex-direction: column;
+    justify-content: baseline;
+    text-align: center;
+    gap: 1.5rem;
+  }
 }

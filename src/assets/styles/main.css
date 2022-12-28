@@ -55,6 +55,7 @@ body {
   box-shadow: 0 1.5em 1.5em -1em hsl(12, 88%, 59%, 0.5);
   display: block;
   max-width: max-content;
+  transition: all ease-in-out 150ms;
 }
 
 .cta:hover {

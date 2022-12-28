@@ -204,6 +204,7 @@ body {
   right: 0;
   width: 4.5rem;
   aspect-ratio: 1 / 1;
+  pointer-events: none;
 }
 
 .testimonials .card-content {

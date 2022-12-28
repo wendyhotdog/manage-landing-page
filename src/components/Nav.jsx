@@ -7,7 +7,7 @@ function Nav() {
   return (
     <nav className="nav | section-max-w">
       <div>
-        <a href="#" className="nav-logo">
+        <a href="#home" className="nav-logo">
           <img src={logo} alt="Manage" />
         </a>
       </div>

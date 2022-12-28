@@ -125,7 +125,7 @@
   }
 
   .section-cta {
-    background-image: url("../static/images/bg-simplify-section-mobile.svg");
+    background-image: url('../static/images/bg-simplify-section-mobile.svg');
   }
 
   .section-cta .container {
@@ -133,5 +133,30 @@
     justify-content: initial;
     text-align: center;
     gap: 1.5rem;
+  }
+  .primary-footer .container {
+    grid-template-columns: 1fr;
+    gap: 4em;
+  }
+
+  .primary-footer .container-links {
+    grid-row: 2;
+    justify-content: space-around;
+  }
+
+  .primary-footer .container-media {
+    grid-row: 3;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 3.5em;
+  }
+  .primary-footer .sm-links {
+    display: flex;
+    flex: 1;
+    margin-block-start: 0;
+    gap: 1.5em;
+  }
+  .secondary-footer {
+    text-align: center;
   }
 }

@@ -3,9 +3,9 @@
     margin-block: 2rem;
   }
 
-  .nav-hero-container {
-    background-size: 150%;
-    background-position: -50% -50%;
+  body {
+    background-size: 80vmax;
+    background-position: 7.5vmax -30vmax;
   }
 
   .nav {
@@ -30,8 +30,9 @@
     inset: 5rem 0 auto 0;
     margin-inline: 1.5rem;
     padding-block: 3rem;
-    box-shadow: 0 40vh 30vh 30vh hsl(233, 12%, 13%, 0.5);
+    box-shadow: 0 50vh 50vw 70vw hsl(233, 12%, 13%, 0.5);
     animation: menu_slide_in 300ms ease-in-out;
+    z-index: 20;
   }
 
   .nav-links {
@@ -49,24 +50,68 @@
     display: flex;
   }
 
+  .intro {
+    line-height: 1.8;
+  }
+
   .hero {
     grid-template-columns: 1fr;
   }
 
-  .hero-container-text {
+  .hero-container-left {
     text-align: center;
     align-items: center;
   }
 
-  .hero-container-text .title {
+  .hero-container-left .title {
     font-size: 2.25rem;
   }
 
-  .hero-container-img {
+  .hero-container-right {
     grid-row: 1;
   }
 
-  .hero-container-img img {
+  .hero-container-right img {
     transform: none;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .about-container-left {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-container-left .title {
+    font-size: 1.9375rem;
+  }
+
+  .numbered-list-container {
+    gap: 1rem;
+  }
+
+  .numbered-list {
+    display: block;
+    margin-left: 0;
+  }
+
+  .numbered-list-id {
+    left: -0.5rem;
+    top: 0;
+  }
+
+  .numbered-list-title {
+    transform: translateX(2.5rem);
+    padding: 0.5em 2em;
+    background-color: var(--primary-400);
+  }
+  .numbered-list-content {
+    line-height: 1.9;
+    font-size: 0.8125rem;
   }
 }

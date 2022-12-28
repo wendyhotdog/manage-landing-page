@@ -1,7 +1,7 @@
-import { useState } from "react";
-import { close, menu } from "../assets/static/icons";
-import logo from "../assets/static/logo.svg";
-import { navLinks } from "../constants";
+import { useState } from 'react';
+import { close, menu } from '../assets/static/icons';
+import logo from '../assets/static/logo.svg';
+import { navLinks } from '../constants';
 function Nav() {
   const [Open, setOpen] = useState(false);
   return (
@@ -18,7 +18,7 @@ function Nav() {
           onClick={() => {
             setOpen((prev) => !prev);
           }}
-          className={`nav-menu ${Open ? "expanded" : ""}`}
+          className={`nav-menu ${Open ? 'expanded' : ''}`}
         />
         <ul className="nav-links-container">
           {navLinks.map((item) => (

@@ -1,4 +1,4 @@
-import heroImg from "../assets/static/images/illustration-intro.svg";
+import heroImg from '../assets/static/images/illustration-intro.svg';
 const Hero = () => {
   return (
     <section id="home" className="hero | section-max-w section-margin">

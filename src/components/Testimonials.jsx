@@ -1,6 +1,6 @@
-import { testimonials } from "../constants";
-import { motion } from "framer-motion";
-import { useRef, useEffect, useState } from "react";
+import { testimonials } from '../constants';
+import { motion } from 'framer-motion';
+import { useRef, useEffect, useState } from 'react';
 const Testimonials = () => {
   const [width, setwidth] = useState(0);
   const slider = useRef();

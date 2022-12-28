@@ -1,4 +1,4 @@
-import { aboutSellPoints } from "../constants";
+import { aboutSellPoints } from '../constants';
 const About = () => {
   return (
     <section className="about | section-max-w section-margin">
